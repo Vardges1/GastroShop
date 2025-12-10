@@ -1,0 +1,263 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "retry": "Retry",
+    "close": "Close",
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "price": "Price",
+    "currency": "Currency",
+    "language": "Language",
+    "cart": "Cart",
+    "checkout": "Checkout",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "profile": "Profile",
+    "orders": "Orders",
+    "wishlist": "Wishlist",
+    "help": "Help",
+    "contact": "Contact",
+    "about": "About",
+    "shipping": "Shipping",
+    "returns": "Returns",
+    "privacy": "Privacy",
+    "terms": "Terms"
+  },
+  "navigation": {
+    "home": "Home",
+    "shop": "Shop",
+    "map": "Origin Map",
+    "assistant": "Gourmet Assistant",
+    "cart": "Shopping Cart",
+    "checkout": "Checkout",
+    "searchPlaceholder": "Search products...",
+    "favorites": "Favorites",
+    "logout": "Logout"
+  },
+  "home": {
+    "hero": {
+      "title": "Premium Gastronomy",
+      "subtitle": "Discover exceptional cheeses and delicacies from across Europe",
+      "cta": "Explore Collection",
+      "exploreRegions": "Explore Regions"
+    },
+    "newArrivals": {
+      "title": "New Arrivals",
+      "subtitle": "Fresh selections from our curators"
+    },
+    "campaign": {
+      "title": "Free Shipping on Orders Over $100",
+      "cta": "Shop Now"
+    },
+    "lookbook": {
+      "title": "Curated Collections",
+      "subtitle": "Perfect pairings for every occasion"
+    },
+    "about": {
+      "title": "About GastroShop",
+      "subtitle": "We source the finest artisanal products directly from European producers",
+      "description": "Our mission is to bring you the most exceptional cheeses and delicacies, carefully selected from traditional producers across Europe. Each product tells a story of heritage, craftsmanship, and passion.",
+      "learnMore": "Learn More",
+      "qualityAssured": "Quality Assured",
+      "qualityDescription": "Every product is carefully selected and quality-tested"
+    },
+    "newsletter": {
+      "title": "Stay Updated",
+      "subtitle": "Get the latest news and exclusive offers",
+      "placeholder": "Enter your email",
+      "cta": "Subscribe",
+      "subscribing": "Subscribing...",
+      "privacy": "We respect your privacy. Unsubscribe at any time.",
+      "success": {
+        "title": "Success!",
+        "description": "You have subscribed to our newsletter."
+      },
+      "error": {
+        "title": "Error",
+        "description": "Something went wrong. Please try again."
+      }
+    }
+  },
+  "shop": {
+    "title": "Shop",
+    "subtitle": "Discover our curated selection of premium cheeses and delicacies",
+    "filters": {
+      "title": "Filters",
+      "category": "Category",
+      "price": "Price Range",
+      "region": "Region",
+      "tags": "Tags",
+      "inStock": "In Stock Only",
+      "clear": "Clear All"
+    },
+    "sort": {
+      "title": "Sort By",
+      "newest": "Newest",
+      "priceLow": "Price: Low to High",
+      "priceHigh": "Price: High to Low",
+      "name": "Name A-Z",
+      "popularity": "Popularity"
+    },
+    "pagination": {
+      "previous": "Previous",
+      "next": "Next",
+      "page": "Page",
+      "of": "of"
+    },
+    "loadError": "Failed to load products. Please try again.",
+    "noProducts": "No products match your criteria."
+  },
+  "product": {
+    "addToCart": "Add to Cart",
+    "addedToCart": "Added!",
+    "addedToCartToast": "Added to cart",
+    "inStock": "In Stock",
+    "outOfStock": "Out of Stock",
+    "quantity": "Quantity",
+    "description": "Description",
+    "origin": "Origin",
+    "region": "Region",
+    "tags": "Tags",
+    "related": "Related Products",
+    "gallery": "Product Gallery",
+    "fromRegion": "From",
+    "viewOnMap": "View on Map"
+  },
+  "cart": {
+    "title": "Shopping Cart",
+    "subtitle": "Review your selected items before checkout",
+    "empty": {
+      "title": "Your cart is empty",
+      "subtitle": "Add some products to get started",
+      "cta": "Continue Shopping"
+    },
+    "item": {
+      "remove": "Remove",
+      "quantity": "Quantity"
+    },
+    "summary": {
+      "title": "Order Summary",
+      "subtotal": "Subtotal",
+      "shipping": "Shipping",
+      "tax": "Tax",
+      "total": "Total",
+      "checkout": "Proceed to Checkout"
+    },
+    "button": "Cart",
+    "quantity": "Quantity"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "subtitle": "Complete your order with secure payment",
+    "success": {
+      "title": "Order placed successfully!",
+      "orderNumber": "Order Number",
+      "emailSent": "We sent a confirmation to your email",
+      "nextSteps": "What's next?",
+      "processing": "We'll process your order within 1-2 hours",
+      "notification": "You'll receive a notification when ready to ship",
+      "delivery": "Delivery will take 3-5 business days",
+      "backHome": "Back to Home",
+      "continue": "Continue Shopping",
+      "orderDetails": "Order Details",
+      "orderDate": "Order Date",
+      "amount": "Amount",
+      "shippingAddress": "Shipping Address"
+    },
+    "form": {
+      "contact": "Contact Information",
+      "shipping": "Shipping Address",
+      "payment": "Payment Method",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Address",
+      "city": "City",
+      "postalCode": "Postal Code",
+      "country": "Country",
+      "notes": "Order Notes"
+    },
+    "summary": {
+      "title": "Order Summary",
+      "items": "Items",
+      "shipping": "Shipping",
+      "total": "Total",
+      "quantity": "Quantity",
+      "subtotalPrefix": "Subtotal",
+      "itemsSuffix": "items",
+      "freeShipping": "Free",
+      "vat": "VAT",
+      "safePayment": "Secure Payment",
+      "safePaymentDescription": "Your payment data is encrypted and secure. We never store your payment information."
+    },
+    "error": {
+      "title": "Error",
+      "description": "Failed to process your order. Please try again."
+    }
+  },
+  "map": {
+    "title": "Origin Map",
+    "subtitle": "Explore the regions where our products originate",
+    "region": {
+      "title": "Products from {region}",
+      "subtitle": "Discover local delicacies from this region",
+      "viewAll": "View All Products"
+    },
+    "noProducts": "No products found",
+    "noRegionProducts": "No products found for this region."
+  },
+  "assistant": {
+    "title": "Gourmet Assistant",
+    "subtitle": "Get personalized recommendations for cheeses and delicacies",
+    "placeholder": "Ask me anything about food pairing...",
+    "send": "Send",
+    "thinking": "Thinking...",
+    "suggestions": {
+      "title": "Try asking:",
+      "items": [
+        "Cheese for pasta with seafood",
+        "What goes well with wine?",
+        "Soft cheese for dessert",
+        "Aged cheese recommendations"
+      ]
+    },
+    "foundProducts": "Found {count} products that may interest you:",
+    "errorMessage": "Sorry, an error occurred. Please try again.",
+    "recommendedProducts": "Recommended Products:"
+  },
+  "auth": {
+    "login": {
+      "title": "Welcome Back",
+      "subtitle": "Sign in to your account",
+      "email": "Email",
+      "password": "Password",
+      "forgot": "Forgot password?",
+      "noAccount": "Don't have an account?",
+      "signUp": "Sign up"
+    },
+    "register": {
+      "title": "Create Account",
+      "subtitle": "Join GastroShop today",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "hasAccount": "Already have an account?",
+      "signIn": "Sign in"
+    }
+  },
+  "errors": {
+    "generic": "Something went wrong. Please try again.",
+    "network": "Network error. Please check your connection.",
+    "notFound": "The requested resource was not found.",
+    "unauthorized": "You need to be logged in to access this resource.",
+    "forbidden": "You don't have permission to access this resource.",
+    "validation": "Please check your input and try again."
+  }
+}

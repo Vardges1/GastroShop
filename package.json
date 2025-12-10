@@ -1,0 +1,19 @@
+{
+  "name": "gastroshop",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "concurrently \"pnpm --filter web dev\" \"pnpm --filter api dev\"",
+    "build": "pnpm --filter web build && pnpm --filter api build",
+    "start": "concurrently \"pnpm --filter web start\" \"pnpm --filter api start\"",
+    "lint": "pnpm --filter web lint && pnpm --filter api lint",
+    "test": "pnpm --filter web test && pnpm --filter api test"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

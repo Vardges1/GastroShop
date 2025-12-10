@@ -1,0 +1,42 @@
+--- apps/web/src/components/layout/footer.tsx
++++ apps/web/src/components/layout/footer.tsx
+@@ -74,21 +74,33 @@ export function Footer() {
+             <div className="space-y-3">
+-              <div className="flex items-center space-x-3">
++              <div className="flex items-start space-x-3">
+                 <MapPin className="h-4 w-4 text-muted-foreground" />
+-                <span className="text-sm text-muted-foreground">
++                <a 
++                  href="https://maps.google.com/maps?q=Moscow+Russia" 
++                  target="_blank" 
++                  rel="noopener noreferrer"
++                  className="text-sm text-muted-foreground hover:text-primary transition-colors"
++                >
+                   123 Gastronomy Street<br />
+                   Moscow, Russia 101000
+-                </span>
++                </a>
+               </div>
+               <div className="flex items-center space-x-3">
+                 <Mail className="h-4 w-4 text-muted-foreground" />
+-                <span className="text-sm text-muted-foreground">
++                <a 
++                  href="mailto:hello@gastroshop.com"
++                  className="text-sm text-muted-foreground hover:text-primary transition-colors"
++                >
+                   hello@gastroshop.com
+-                </span>
++                </a>
+               </div>
+               <div className="flex items-center space-x-3">
+                 <Phone className="h-4 w-4 text-muted-foreground" />
+-                <span className="text-sm text-muted-foreground">
++                <a 
++                  href="tel:+74951234567"
++                  className="text-sm text-muted-foreground hover:text-primary transition-colors"
++                >
+                   +7 (495) 123-45-67
+-                </span>
++                </a>
+               </div>
+             </div>
