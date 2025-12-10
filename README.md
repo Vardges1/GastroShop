@@ -68,7 +68,7 @@ A premium gastronomy e-commerce platform specializing in European cheeses and de
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
 │   Frontend      │    │   Backend       │    │   Database      │
 │   (Next.js)     │◄──►│   (Go/Gin)      │◄──►│   (PostgreSQL)  │
-│   Port: 3000    │    │   Port: 8080    │    │   Port: 5432    │
+│   Port: 3001    │    │   Port: 8081    │    │   Port: 5434    │
 └─────────────────┘    └─────────────────┘    └─────────────────┘
          │                       │                       │
          │                       │                       │
@@ -145,9 +145,9 @@ A premium gastronomy e-commerce platform specializing in European cheeses and de
    ```
 
    This will start:
-   - PostgreSQL database on port 5432
-   - Go API server on port 8080
-   - Next.js web app on port 3000
+   - PostgreSQL database on port 5434 (host) → 5432 (container)
+   - Go API server on port 8081 (host) → 8080 (container)
+   - Next.js web app on port 3001 (host) → 3000 (container)
    - Nginx reverse proxy on port 80
 
 4. **Run database migrations**
@@ -157,9 +157,9 @@ A premium gastronomy e-commerce platform specializing in European cheeses and de
    ```
 
 5. **Access the application**
-   - Web app: http://localhost:3000
-   - API: http://localhost:8080
-   - API docs: http://localhost:8080/api
+   - Web app: http://localhost:3001
+   - API: http://localhost:8081
+   - API docs: http://localhost:8081/api
 
 ### Local Development
 
@@ -256,7 +256,7 @@ GastroShop/
 ### Backend (.env)
 ```env
 # Database
-DB_DSN=postgres://postgres:postgres@localhost:5432/gastroshop?sslmode=disable
+DB_DSN=postgres://postgres:postgres@localhost:5434/gastroshop?sslmode=disable
 
 # JWT
 JWT_SECRET=your-super-secret-jwt-key-change-in-production
@@ -274,7 +274,7 @@ CAPI_SECRET=your-api-secret
 
 # Server
 PORT=8080
-CORS_ORIGIN=http://localhost:3000
+CORS_ORIGIN=http://localhost:3001
 ```
 
 ### Frontend (.env)
@@ -283,8 +283,8 @@ CORS_ORIGIN=http://localhost:3000
 NODE_ENV=development
 
 # URLs
-NEXT_PUBLIC_BASE_URL=http://localhost:3000
-API_BASE_URL=http://localhost:8080
+NEXT_PUBLIC_BASE_URL=http://localhost:3001
+API_BASE_URL=http://localhost:8081
 
 # Map
 NEXT_PUBLIC_MAP_STYLE=/map/style.json
@@ -367,10 +367,10 @@ CAPI_SECRET=your-api-secret
 ./demo_payment_flow.sh
 
 # Админ панель
-http://localhost:3000/admin
+http://localhost:3001/admin
 
 # Mock checkout
-http://localhost:3000/mock-checkout/{payment_id}
+http://localhost:3001/mock-checkout/{payment_id}
 ```
 
 ### Особенности
