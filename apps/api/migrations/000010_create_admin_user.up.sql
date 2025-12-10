@@ -1,4 +1,4 @@
--- Create admin user
+-- Create or update admin user
 -- Email: admin@gastroshop.com
 -- Password: Admin123!
 -- The password hash is for "Admin123!" - you should change this in production!
@@ -8,5 +8,7 @@ VALUES (
     '$2a$10$EbctoatfGRklofQiHaLKpeQ1mOODk9X7yPJxb7vZeBP343Hi5bZSO',
     'admin'
 )
-ON CONFLICT (email) DO UPDATE SET role = 'admin';
+ON CONFLICT (email) DO UPDATE 
+SET password_hash = EXCLUDED.password_hash,
+    role = 'admin';
 
